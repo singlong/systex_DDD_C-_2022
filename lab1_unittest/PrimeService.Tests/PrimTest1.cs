@@ -10,14 +10,14 @@ public class PrimeTest1
         primeService = new PrimeService();
     }
     [Test]
-    public void Test1()
+    public void test1()
     {
         
         bool result = primeService.IsPrime(1);
         Assert.IsFalse(result, "1 should not be a prime");
     }
     [Test]
-    public void Test2()
+    public void test2()
     {
         bool result = primeService.IsPrime(2);
         Assert.IsTrue(result, "2 should be a prime");

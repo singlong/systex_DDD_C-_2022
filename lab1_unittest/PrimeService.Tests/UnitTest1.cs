@@ -31,7 +31,7 @@ public class Tests
         Assert.Pass();
     }
     [Test]
-     [Ignore("not yet")]
+    [Ignore("因為還沒寫好")]
     public void Test2()
     {
         Console.WriteLine("this is test2");
